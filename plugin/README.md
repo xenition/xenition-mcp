@@ -40,24 +40,3 @@ claude plugin validate .          # marketplace
 ```sh
 claude --plugin-dir ./plugin
 ```
-
-## Publish to the MCP Registry
-
-The `com.xenition.api/*` name is proved by owning `api.xenition.com`, which
-serves the registry proof at `https://api.xenition.com/.well-known/mcp-registry-auth`.
-
-```sh
-mcp-publisher login http --domain api.xenition.com --private-key <key>
-mcp-publisher publish registry/server.json
-```
-
-Bump `version` in `plugin.json` and `registry/server.json` together.
-
-## Store submissions
-
-- **ChatGPT:** submit `https://api.xenition.com/mcp` and upload the `skills/`
-  folder.
-- **Claude connector directory:** submit
-  `https://api.xenition.com/mcp/workspace`, the one address without AI media.
-  Claude users who want images, video and voice add
-  `https://api.xenition.com/mcp` as a custom connector instead.
