@@ -1,0 +1,12 @@
+{
+  "name": "xenition",
+  "description": "Official Xenition plugins.",
+  "owner": { "name": "Xenition", "url": "https://xenition.com" },
+  "plugins": [
+    {
+      "name": "xenition",
+      "source": "./plugin",
+      "description": "Your Xenition workspace, app builder, automations and Studio in the chat."
+    }
+  ]
+}

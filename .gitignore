@@ -1,0 +1,12 @@
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
+
+# Secrets — never commit publisher keys or env files
+.env
+.env.*
+*.pem
+*.key
