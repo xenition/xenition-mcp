@@ -1,0 +1,5 @@
+{
+  "mcpServers": {
+    "xenition": { "type": "http", "url": "https://api.xenition.com/mcp" }
+  }
+}
