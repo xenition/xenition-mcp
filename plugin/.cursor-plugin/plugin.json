@@ -1,0 +1,14 @@
+{
+  "name": "xenition",
+  "displayName": "Xenition",
+  "version": "0.2.1",
+  "description": "Your Xenition workspace in the chat: documents, decks, sheets, boards, forms, apps you can build and deploy, scheduled automations, and AI images, video and voiceover.",
+  "author": {
+    "name": "Xenition",
+    "url": "https://xenition.com"
+  },
+  "homepage": "https://xenition.com",
+  "license": "Apache-2.0",
+  "keywords": ["workspace", "documents", "slides", "app-builder", "automation", "video"],
+  "logo": "assets/logo.svg"
+}
